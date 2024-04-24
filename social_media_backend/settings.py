@@ -134,7 +134,7 @@ AUTHENTICATION_BACKENDS = ("apps.users.auth_backend.UserAuthBackend",)
 
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "apps.base.pagination.PageNumberPagination",
-    "PAGE_SIZE": 30,
+    "PAGE_SIZE": 10,
     "DEFAULT_AUTHENTICATION_CLASSES": [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
